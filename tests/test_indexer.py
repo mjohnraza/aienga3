@@ -18,7 +18,7 @@ import chromadb
 def test_load_text_files():
     """Test reading the text files"""
     # Create the test files in a temporary directory
-    with tempfile.TemporaryDirectory() as tmpdir:
+    with tempfile.TemporaryDirectory(ignore_cleanup_errors=True) as tmpdir:
         tmppath = Path(tmpdir)
 
         # Create files for the test
@@ -40,7 +40,7 @@ def test_load_text_files():
 
 def test_index_documents():
     """Test the whole indexing flow"""
-    with tempfile.TemporaryDirectory() as tmpdir:
+    with tempfile.TemporaryDirectory(ignore_cleanup_errors=True) as tmpdir:
         tmppath = Path(tmpdir)
         docs_path = tmppath / "documents"
         chroma_path = tmppath / "chroma_db"
@@ -78,7 +78,7 @@ def test_index_documents():
 
 def test_the_id_is_the_file_name():
     """One file is one document, and the file name is its id"""
-    with tempfile.TemporaryDirectory() as tmpdir:
+    with tempfile.TemporaryDirectory(ignore_cleanup_errors=True) as tmpdir:
         tmppath = Path(tmpdir)
         docs_path = tmppath / "documents"
         docs_path.mkdir()

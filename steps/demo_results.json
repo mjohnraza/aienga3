@@ -1,0 +1,76 @@
+{
+  "part_a": [
+    {
+      "question_num": 1,
+      "question": "What are your opening hours on weekends?",
+      "top_match": "menu_food.txt",
+      "distance": 0.18449288606643677,
+      "snippet": "passage: The Wandering Kettle - Food Menu  ALL DAY PLATES  Soft scrambled eggs on sourdough - $6.20 Mushroom toast with thyme - $6.60 Soup of the day with bread - $5.40 Rice porridge with pickled plum",
+      "assessment": "Partial"
+    },
+    {
+      "question_num": 2,
+      "question": "What vegan or plant-based food items are available?",
+      "top_match": "allergens.txt",
+      "distance": 0.18517881631851196,
+      "snippet": "passage: The Wandering Kettle - Ingredients and Dietary Notes  PLEASE TELL US  Tell the person at the register before you order. The kitchen is small and we would rather adjust a dish than apologise f",
+      "assessment": "Highly Relevant"
+    },
+    {
+      "question_num": 3,
+      "question": "Is there wireless internet and power sockets for laptops?",
+      "top_match": "faq.txt",
+      "distance": 0.19821679592132568,
+      "snippet": "passage:  The Wandering Kettle - Questions We Get Asked  CAN I STAY AND WORK?  Yes, on most days. We ask for one order every ninety minutes, and we ask you to move to a smaller table if the room fills",
+      "assessment": "Highly Relevant"
+    },
+    {
+      "question_num": 4,
+      "question": "Where is the café located and how do I get there from the station?",
+      "top_match": "menu_drinks.txt",
+      "distance": 0.18899154663085938,
+      "snippet": "passage: The Wandering Kettle - Drink Menu  ESPRESSO BAR  Espresso - $2.80 Americano - $3.20 Flat White - $4.00 Cafe Latte - $4.20 Mocha - $4.60  Every espresso drink is pulled from our house blend, \"",
+      "assessment": "Partial"
+    },
+    {
+      "question_num": 5,
+      "question": "What is the story behind the café and how did it start?",
+      "top_match": "menu_drinks.txt",
+      "distance": 0.19024986028671265,
+      "snippet": "passage: The Wandering Kettle - Drink Menu  ESPRESSO BAR  Espresso - $2.80 Americano - $3.20 Flat White - $4.00 Cafe Latte - $4.20 Mocha - $4.60  Every espresso drink is pulled from our house blend, \"",
+      "assessment": "Partial"
+    }
+  ],
+  "part_c": [
+    {
+      "topic": "Opening Hours",
+      "question": "What time does the café open and close on Saturday and Sunday?",
+      "answer": "The café opens at 9:00 AM on Saturday and closes at 22:00 (10:00 PM) on Sunday."
+    },
+    {
+      "topic": "Food & Dietary",
+      "question": "What options do you have for someone who cannot eat wheat or gluten?",
+      "answer": "The Wandering Kettle offers a gluten-free option on the menu. You can ask the staff to make the dish without wheat flour. They should be able to accommodate your dietary needs."
+    },
+    {
+      "topic": "Working Environment",
+      "question": "Can I work on my laptop there, and are there power outlets available?",
+      "answer": "Yes, on most days you can stay and work. We ask for one order every ninety minutes, and we ask you to move to a smaller table if the room fills up. On Friday and Saturday after six in the evening, the room becomes a place for conversation instead, and laptops are put away. There are six sockets along the window bench and two more beside the shelf of secondhand books. The four small tables in the middle of the room have none, which is deliberate."
+    },
+    {
+      "topic": "Directions",
+      "question": "How do I reach the café from Shibuya and where can I park a bicycle?",
+      "answer": "To reach The Wandering Kettle from Shibuya, take the train from Shibuya to Kitasawa, about fifteen minutes. The nearest station is Kitasawa, which is about six minutes by foot from the café. For parking bicycles, you can leave them in the rack beside the green door, but it can fill up on weekend afternoons, so be prepared for the police to ticket bicycles left on the pavement."
+    },
+    {
+      "topic": "Origin Story",
+      "question": "Who founded The Wandering Kettle and what is the meaning behind its name?",
+      "answer": "The Wandering Kettle was founded by Mira Halloran, who wanted to work in a place where the results were immediately visible. The name is derived from the kettle, which she acquired from her grandmother's house in Cork and which does not work and has never been used."
+    },
+    {
+      "topic": "Unanswerable / Missing",
+      "question": "Do you sell branded ceramic mugs, t-shirts, or tote bags as café merchandise?",
+      "answer": "The documents on file do not contain information about what merchandise the café sells."
+    }
+  ]
+}
